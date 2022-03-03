@@ -26,7 +26,7 @@ public class SimpleBankingApp {
 		users.add(aUser);
 		
 		aUser = new User("julia.roberts@gmail.com", "change_me",   "Julia", "roberts",   "07770123456");
-		//users.add(aUser); // --> THE hidden DEFECT!
+		users.add(aUser); // --> THE hidden DEFECT!
 		
 	}
 	
@@ -72,7 +72,7 @@ public class SimpleBankingApp {
 				"Account #", "username_of_account_holder", "type", "opening_date", "Balance"));
 		System.out.println("--------------------------------------------------------------------------------");
 		for  (int i = 0; i < accounts.size(); i++) 
-            System.out.println(accounts.get(i).toString() + "| £" + getBalance(accounts.get(i).getAccount_number()));	
+            System.out.println(accounts.get(i).toString() + "| Â£" + getBalance(accounts.get(i).getAccount_number()));	
 		System.out.println();
 	}
 	
