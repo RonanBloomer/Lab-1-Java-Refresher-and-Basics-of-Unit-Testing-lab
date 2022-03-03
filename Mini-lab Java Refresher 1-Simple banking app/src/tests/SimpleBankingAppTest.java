@@ -19,7 +19,7 @@ public class SimpleBankingAppTest {
 
 		// Verify phase
 		// we see in the load function of the UUT that we have loaded 3 users, so let's verify that
-		assert mainApp.users.size() == 2;
+		assert mainApp.users.size() == 3;
 		System.out.println("testDataLoads: populateUserData: TC1 passed.");
 		// The above only verification is basic (simple, weak) 
 		// To do STRONGER verification, we would need more assertions for user names and account balances, etc.
